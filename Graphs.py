@@ -34,7 +34,9 @@ print(astar_path)
 dijkstra_path = nx.dijkstra_path(Graph,(0,0),(random.randint(1,10),random.randint(1, 10)))
 print("Generating dijkstra path")
 print(dijkstra_path)
-
+bellman_ford_path = nx.bellman_ford_path(Graph,(0,0),(random.randint(1,10),random.randint(1, 10)))
+print("Generating Bellman Ford Path")
+print(bellman_ford_path)
 plt.axis('off')
 plt.show()
 
